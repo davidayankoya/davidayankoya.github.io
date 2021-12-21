@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio | David Ayankoya | Full Stack Web Developer</title>
+    <meta name="description"
+        content="My Personal Web Developer Portfolio. I'm a Full-Stack Web Developer currently learning React. Check out my work below.">
+    <meta name="keywords"
+        content="Web Developer, Portfolio, Full-Stack, HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;300;400;500&family=Poppins:wght@100;300&family=Raleway:wght@100;200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="light-theme.css" id="theme-link">
+    <title>Web Developer Portfolio | David Ayankoya</title>
+</head>
+
+<body>
+
+    <div class="body-container">
+        <nav class="nav-bar">
+            <div class="nav-hamburger">
+                <svg width="50" height="50" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2H38" stroke="black" stroke-width="4" stroke-linecap="round" />
+                    <path d="M2 20.6666H19" stroke="black" stroke-width="4" stroke-linecap="round" />
+                    <path d="M2 38H12" stroke="black" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="nav-cancel">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 27.4558L27.4558 1.99997" stroke="black" stroke-width="4" stroke-linecap="round" />
+                    <path d="M2.72803 2.72791L28.1839 28.1837" stroke="black" stroke-width="4" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="nav-overlay">
+                <svg width="305" height="336" viewBox="0 0 305 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0 0V335.5L0.0691552 335.223C2.52749 325.384 4.08232 319.16 23.5 314.5C36 311.5 62.5 310.5 81 310.5C99.5 310.5 146.184 309.025 191 288C231.5 269 246.931 250.619 267.5 220.5C281.5 200 293.023 176.381 299 145C305 113.5 305.875 99.7487 301 70.5C297.5 49.5 292.096 40.6635 285.948 21.2999C281.44 7.09997 285.948 0 303.981 0H0Z"
+                        fill="#F7F1E3" fill-opacity="1" />
+                </svg>
+                <div class="about-icon-container">
+                    <img class="about-icon" src="./resources/aboutme-icon.png" />
+                    <span class="about-label">About</span>
+                </div>
+                <div class="work-icon-container">
+                    <img class="work-icon" src="./resources/work-icon.png" />
+                    <span class="work-label">Work</span>
+                </div>
+                <div class="contact-icon-container">
+                    <img class="contact-icon" src="./resources/contact-icon.png" />
+                    <span class="contact-label">Contact</span>
+                </div>
+
+            </div>
+        </nav>
+        <div class="mode-btn"></div>
+
+        <div class="pages">
+            <section class="about-page">
+                <h1 class="about-page-header">hello, i'm David</h1>
+                <p class="about-page-desc"></p>
+                <span class="about-page-text"></span>
+            </section>
+    
+            <section class="work-page" style="padding: 0 10% 0;" >
+                <h1 class="work-page-header">portfolio</h1>
+                <p class="work-page-p">Built using web technologies such as React, vanilla JS, Node.js, Express, MongoDB and others, check out a selection of my favorite web development projects.</p>
+                    
+                <div class="work-page-item">
+                    <span>
+                        <img class="portfolio-img" width="450" height="auto" src="./resources/dark_frame_findmyward.png">
+                    </span>
+                    <main>
+                        <h3>find My Ward</h3>
+                        <p>A web application built to help parents monitor the location of their ‘kids’ using a GPS locator.</p>
+                        <a href="findmyward.herokuapp.com">findmyward.herokuapp.com</a>
+                    </main>
+                </div>
+                <div class="work-page-item">
+                    <main>
+                        <h3>digital Yearbook</h3>
+                        <p>A digital version of a school yearbook for colleagues and schoolmates to commemorate their convocation, awards, achievements in the school year.</p>
+                        <a href="http://www.16thsetcu.online/">16thsetcu.online</a>
+                    </main>
+                    <span>
+                        <img class="portfolio-img" width="450" height="auto" src="./resources/dark_frame_yearbook.png">
+                    </span>
+                </div>
+                <div class="work-page-item">
+                    <span>
+                        <img class="portfolio-img" width="450" height="auto" src="./resources/dark_frame_portfolio.png">
+                    </span>
+                    <main>
+                        <h3>my Portfolio Website</h3>
+                        <p>A portfolio website built to help me display some of my completed development projects.</p>
+                        <a href="codetaichou.com">codetaichou.com</a>
+                    </main>
+                </div>
+            </section>
+    
+            <section class="contact-page" style="padding: 0 10% 0;" >
+                    <h1 class="contact-page-header">contact</h1>
+                    <p class="contact-page-p">if you want to get in touch with me, need help with a concept or talk about a collaboration, send me an email:</p>
+                    <div class="contact-card">
+                        <h3>name</h3>
+                        <input type="text">
+                        <h3>message</h3>
+                        <textarea rows="4"></textarea>
+                        <button type="submit">submit</button>
+                    </div>
+
+                    <h1 class="contact-page-header">say Hi</h1>
+                    <p class="contact-page-p">if you wanna say hi, reach me on..</p>
+
+                    <div class="social-modal">
+                        <div class="social-icon instagram"><img src="./resources/icons8-instagram.svg"></div>
+                        <div class="social-icon twitter"><img src="./resources/icons8-twitter.svg"></div>
+                    </div>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"
+    integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+    integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+
+</html>
