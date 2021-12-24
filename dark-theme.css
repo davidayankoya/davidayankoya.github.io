@@ -225,7 +225,7 @@ html, body {
 
 .about-page .about-page-text {
   padding: 1em 2em 1em;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   min-height: 40px;
 }
@@ -342,7 +342,7 @@ html, body {
 .contact-page .contact-page-header {
   color: #999;
   font-size: 2.5em;
-  margin-bottom: .5em;
+  margin-bottom: .2em;
 }
 
 .contact-page .contact-page-p {
@@ -371,6 +371,20 @@ html, body {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.contact-page .contact-card form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
 .contact-page .contact-card h3 {
   color: #442a3a;
 }
@@ -379,7 +393,7 @@ html, body {
   margin: 0;
 }
 
-.contact-page .contact-card input {
+.contact-page .contact-card input[type="text"] {
   width: 90%;
   border: none;
   outline: none;
@@ -400,7 +414,7 @@ html, body {
   padding: .5em;
 }
 
-.contact-page .contact-card button {
+.contact-page .contact-card input {
   width: 7em;
   border: none;
   background: #FFFFFF;
@@ -411,6 +425,7 @@ html, body {
   font-family: inherit;
   font-size: 1em;
   cursor: pointer;
+  color: #452a3b;
 }
 
 .contact-page .social-modal {
