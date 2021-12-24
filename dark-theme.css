@@ -414,7 +414,7 @@ html, body {
   padding: .5em;
 }
 
-.contact-page .contact-card input {
+.contact-page .contact-card input[type="submit"] {
   width: 7em;
   border: none;
   background: #FFFFFF;
