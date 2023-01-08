@@ -20,7 +20,7 @@ function landingAnimation() {
                 // startDelay: 3000,
             })
             new Typed('.about-page-text', {
-                strings: ['i design and build websites and web apps, currently learning React.', 'check out my work and feel free to contact me for work and Collabs👍🏾'],
+                strings: ['I design and build interactive and aesthetic websites and web apps', 'Check out my work and feel free to contact me for work and collabs 👍🏾'],
                 typeSpeed: 50,
                 backDelay: 3000,
                 startDelay: 5000,
