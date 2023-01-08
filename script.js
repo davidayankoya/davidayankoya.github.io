@@ -13,7 +13,7 @@ function landingAnimation() {
     let tl = anime.timeline({
         complete: function (anim) {
             new Typed('.about-page-desc', {
-                strings: ['a six packed ;-)', 'a full-stack Web Developer'],
+                strings: ['a six pac', 'a Front-End Web Developer'],
                 smartBackspace: true,
                 typeSpeed: 50,
                 showCursor: false,
